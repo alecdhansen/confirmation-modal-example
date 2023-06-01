@@ -2,7 +2,7 @@ import { StyleSheet } from "react-native";
 
 export const styles = StyleSheet.create({
   modal: {
-    backgroundColor: "rgba(0,0,0,0.3)",
+    backgroundColor: "rgba(0,0,0,0.4)",
     flex: 1,
     justifyContent: "flex-end",
   },
@@ -20,7 +20,7 @@ export const styles = StyleSheet.create({
   divider: { borderWidth: 0.5, borderColor: "#aba5a5" },
   deleteText: {
     textAlign: "center",
-    color: "red",
+    color: "#ff2e2e",
     fontWeight: "bold",
     paddingVertical: 20,
     fontSize: 20,

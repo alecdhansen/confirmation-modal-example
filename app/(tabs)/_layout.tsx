@@ -21,12 +21,13 @@ export default function TabLayout() {
       }}
     >
       <Tabs.Screen
-        name="one"
+        name="chat"
         options={{
-          title: "Card",
+          title: "Chat",
           tabBarIcon: ({ color }) => (
-            <TabBarIcon name="address-card-o" color={color} />
+            <TabBarIcon name="comment" color={color} />
           ),
+          headerShown: false,
         }}
       />
       <Tabs.Screen
@@ -36,6 +37,7 @@ export default function TabLayout() {
           tabBarIcon: ({ color }) => (
             <TabBarIcon name="institution" color={color} />
           ),
+          headerShown: false,
         }}
       />
     </Tabs>

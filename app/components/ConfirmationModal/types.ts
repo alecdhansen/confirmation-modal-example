@@ -1,6 +1,6 @@
 export type ConfirmationModalProps = {
-  isModalVisible: boolean;
-  setIsModalVisible: (isModalVisible: boolean) => void;
-  action: any;
+  isVisible: boolean;
+  setIsVisible: (isVisible: boolean) => void;
+  onConfirm: any;
   message: string;
 };
