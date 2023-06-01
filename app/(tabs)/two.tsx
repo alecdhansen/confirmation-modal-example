@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { View, TextInput, Button, StyleSheet } from "react-native";
-import ConfirmationModal from "../components/ConfirmationModal";
+import ConfirmationModal from "react-native-confirmation";
 
 const TabTwoScreen = () => {
   const [color, setColor] = useState("");

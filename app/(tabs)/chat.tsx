@@ -7,7 +7,7 @@ import {
   TouchableOpacity,
   View,
 } from "react-native";
-import ConfirmationModal from "../components/ConfirmationModal";
+import ConfirmationModal from "react-native-confirmation";
 import { useState } from "react";
 import { MaterialIcons } from "@expo/vector-icons";
 
