@@ -29,6 +29,7 @@ const TabTwoScreen = () => {
       <Button
         title="Reset Background Color"
         onPress={() => setIsVisible(true)}
+        color={"white"}
       />
       <ConfirmationModal
         isVisible={isVisible}

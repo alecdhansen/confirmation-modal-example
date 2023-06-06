@@ -42,7 +42,7 @@ const TabOneScreen = () => {
         )}
         <View style={styles.inputContainer}>
           <TextInput
-            onChangeText={(text) => setInput(text)}
+            onChangeText={setInput}
             onSubmitEditing={() => setText(input)}
             value={input}
             returnKeyType="send"
